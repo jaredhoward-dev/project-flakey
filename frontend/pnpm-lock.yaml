@@ -9,21 +9,21 @@ importers:
   .:
     dependencies:
       isomorphic-dompurify:
-        specifier: ^4.7.0
-        version: 4.7.0
+        specifier: ^4.8.0
+        version: 4.8.0
     devDependencies:
       '@iconify-json/material-symbols':
-        specifier: 1.2.99
-        version: 1.2.99
+        specifier: 1.2.101
+        version: 1.2.101
       '@playwright/test':
-        specifier: 1.65.0
-        version: 1.65.0
+        specifier: 1.65.1
+        version: 1.65.1
       '@sveltejs/adapter-static':
         specifier: 4.0.1
-        version: 4.0.1(@sveltejs/kit@3.2.0(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.58.0(@typescript-eslint/types@8.58.0))(vite@8.3.8(@types/node@26.6.6)))(svelte@5.58.0(@typescript-eslint/types@8.58.0))(typescript@6.0.3)(vite@8.3.8(@types/node@26.6.6)))
+        version: 4.0.1(@sveltejs/kit@3.4.0(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.58.0(@typescript-eslint/types@8.58.0))(vite@8.3.8(@types/node@26.6.6)))(svelte@5.58.0(@typescript-eslint/types@8.58.0))(typescript@6.0.3)(vite@8.3.8(@types/node@26.6.6)))
       '@sveltejs/kit':
-        specifier: 3.2.0
-        version: 3.2.0(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.58.0(@typescript-eslint/types@8.58.0))(vite@8.3.8(@types/node@26.6.6)))(svelte@5.58.0(@typescript-eslint/types@8.58.0))(typescript@6.0.3)(vite@8.3.8(@types/node@26.6.6))
+        specifier: 3.4.0
+        version: 3.4.0(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.58.0(@typescript-eslint/types@8.58.0))(vite@8.3.8(@types/node@26.6.6)))(svelte@5.58.0(@typescript-eslint/types@8.58.0))(typescript@6.0.3)(vite@8.3.8(@types/node@26.6.6))
       '@sveltejs/vite-plugin-svelte':
         specifier: 7.3.1
         version: 7.3.1(svelte@5.58.0(@typescript-eslint/types@8.58.0))(vite@8.3.8(@types/node@26.6.6))
@@ -84,8 +84,8 @@ packages:
       '@noble/hashes':
         optional: true
 
-  '@iconify-json/material-symbols@1.2.99':
-    resolution: {integrity: sha512-c7CBI249CmvZDeT7sml1iwKEjsbiB8NUG2Bg1KPd7jnvLQ/8iQv7TQWnqq9a2357SkPjnyVTxxTgkWO2rlUtCw==}
+  '@iconify-json/material-symbols@1.2.101':
+    resolution: {integrity: sha512-k2cOWfrsLM9TpCr34UZ34toSotApzFDxh+DX7tVk4EkqO2XhoiuDPs1oAbiZSJQQ3JHjhkS9kBlMFa36yYda0Q==}
 
   '@iconify/types@2.0.0':
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
@@ -122,8 +122,8 @@ packages:
   '@oxc-project/types@0.156.0':
     resolution: {integrity: sha512-1Duyg48TdJNdyhEB8Xn1L36bT9Pv6GUtlKjHxOys8xkaF/rQq3XJE+bAurSK/AgIz5mGFsb77cn9Pb20+WCScw==}
 
-  '@playwright/test@1.65.0':
-    resolution: {integrity: sha512-iGURLGuKDLakSEl7Pgfv8h7f+XLT+V861Wfhz0zlEl5nyFuKUopdkFBPKqTllTUp06aOwPuH8iuUEb3yp3MpbQ==}
+  '@playwright/test@1.65.1':
+    resolution: {integrity: sha512-y+NCIRm2LvY4slUVWvGh1nujJ8RF/hEisIsq2mtUPgdQC4L701bq5hZGMhrpeXjACvwvO9tj5dJqhvM6TP9lbw==}
     engines: {node: '>=20'}
     hasBin: true
 
@@ -247,8 +247,8 @@ packages:
     peerDependencies:
       '@sveltejs/kit': ^3.0.0-next.0
 
-  '@sveltejs/kit@3.2.0':
-    resolution: {integrity: sha512-zhb8GTeFd/6BwfqaY4wKIF7eFACYOgn/KNppV6UHFBHk174B4d7xTtN7x0PxaPPlwnCTgbnpaYF6r9lirz0Biw==}
+  '@sveltejs/kit@3.4.0':
+    resolution: {integrity: sha512-0GBSN4rR/IptM40J5knl2lU/BFTP4U5mF+dXBE5VyHuBI5+bf/Zs3YzrAVKrqidZ9CRj9NUaHb0rxzFNkfUw6g==}
     engines: {node: '>=22.17'}
     hasBin: true
     peerDependencies:
@@ -405,8 +405,8 @@ packages:
   devalue@5.9.4:
     resolution: {integrity: sha512-sPAT4pztbu6586/hrhOnMKS17IJrvg12mXiSPSS3W5qDeN2RGgvZ0diZCm31dBbnevfVmujNO3IM2wrS4Y2Rhg==}
 
-  dompurify@3.4.17:
-    resolution: {integrity: sha512-B/pSlYVHQ58kqISD/yDjuJ1yfzI34m1gF4lAod2bwSRhiN4K5Cl3H8Af7hqB2PmTL911tdEudnnXn5FnhRoz0w==}
+  dompurify@3.4.18:
+    resolution: {integrity: sha512-ofe3wI/uNm68HInABYFJYqQxRw1EaKAjNdrFVKqjUY+UZurvNd2L/HuQe097s/4RivWiZyP6tT7aoT8atjfhwg==}
 
   entities@9.0.0:
     resolution: {integrity: sha512-oJFNDJg3kTPwAD1cNn2+WmUq4wFoo09npc3Ydf1D7ED4smRiWrsKnaLxykrTWgyGEcusc87P5dxlAleol9kpkg==}
@@ -478,8 +478,8 @@ packages:
   is-reference@3.0.3:
     resolution: {integrity: sha512-ixkJoqQvAP88E6wLydLGGqCJsrFUnqoH6HnaczB8XmDH1oaWU+xxdptvikTgaEhtZ53Ky6YXiBuUI2WXLMCwjw==}
 
-  isomorphic-dompurify@4.7.0:
-    resolution: {integrity: sha512-7CDsVX8svURoGnNmrmfatqCy/VZ4qrh8kWB2Go+h3CFbsuchL7/SUTPOsyXcYtpCgTDMBlRG4ZEUEDzsQ4XB2Q==}
+  isomorphic-dompurify@4.8.0:
+    resolution: {integrity: sha512-NeJbMkmJQ72DudwaDP5OvMTmRTv0Rgp8oRIEpbGtxzIgKoALAE0D7lpvRRiX4fpnGrlIIGjrh92bl3XdsqYDQw==}
     engines: {node: ^22.22.2 || ^24.15.0 || >=26.0.0}
 
   jsdom@31.0.1:
@@ -648,13 +648,13 @@ packages:
   pkg-types@2.3.0:
     resolution: {integrity: sha512-SIqCzDRg0s9npO5XQ3tNZioRY1uK06lA41ynBC1YmFTmnY6FjUjVt6s4LoADmwoig1qqD0oK8h1p/8mlMx8Oig==}
 
-  playwright-core@1.65.0:
-    resolution: {integrity: sha512-vNSKgH6YqtN7cdT/L334zo0a+YwkrpicyrHJlWWPIm/Q+Nn2SWInil01oT0mbu96U4GgoRtCYQD9CzJQgju+lA==}
+  playwright-core@1.65.1:
+    resolution: {integrity: sha512-hqPpz7blSMPxWVdoeE1yiBSzXsKiVOd2k+kjCvmUywD2GPO2Dd9HfcWnq9NN0GHbNZDFgZ9JfBFr+X5/BLo0qw==}
     engines: {node: '>=20'}
     hasBin: true
 
-  playwright@1.65.0:
-    resolution: {integrity: sha512-F3AMWcR44qMBt4kq+6Kb6mX7bjGXshktKFOPULd7reED6ZJWevjbNRqysP7q+AATE9kdPEZBibex1BYsvpVoeA==}
+  playwright@1.65.1:
+    resolution: {integrity: sha512-vJ1FuoOrNwOKHUIVEvSt3jT1L+wjjDpwhwIstKtfvTh8XIG4FG4bIFuvNdMxi81LGfAhUgUZleVFaOLY4RIUUw==}
     engines: {node: '>=20'}
     hasBin: true
 
@@ -1005,7 +1005,7 @@ snapshots:
 
   '@exodus/bytes@1.16.0': {}
 
-  '@iconify-json/material-symbols@1.2.99':
+  '@iconify-json/material-symbols@1.2.101':
     dependencies:
       '@iconify/types': 2.0.0
 
@@ -1047,9 +1047,9 @@ snapshots:
 
   '@oxc-project/types@0.156.0': {}
 
-  '@playwright/test@1.65.0':
+  '@playwright/test@1.65.1':
     dependencies:
-      playwright: 1.65.0
+      playwright: 1.65.1
 
   '@polka/url@1.0.0-next.29': {}
 
@@ -1113,11 +1113,11 @@ snapshots:
     dependencies:
       acorn: 8.19.0
 
-  '@sveltejs/adapter-static@4.0.1(@sveltejs/kit@3.2.0(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.58.0(@typescript-eslint/types@8.58.0))(vite@8.3.8(@types/node@26.6.6)))(svelte@5.58.0(@typescript-eslint/types@8.58.0))(typescript@6.0.3)(vite@8.3.8(@types/node@26.6.6)))':
+  '@sveltejs/adapter-static@4.0.1(@sveltejs/kit@3.4.0(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.58.0(@typescript-eslint/types@8.58.0))(vite@8.3.8(@types/node@26.6.6)))(svelte@5.58.0(@typescript-eslint/types@8.58.0))(typescript@6.0.3)(vite@8.3.8(@types/node@26.6.6)))':
     dependencies:
-      '@sveltejs/kit': 3.2.0(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.58.0(@typescript-eslint/types@8.58.0))(vite@8.3.8(@types/node@26.6.6)))(svelte@5.58.0(@typescript-eslint/types@8.58.0))(typescript@6.0.3)(vite@8.3.8(@types/node@26.6.6))
+      '@sveltejs/kit': 3.4.0(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.58.0(@typescript-eslint/types@8.58.0))(vite@8.3.8(@types/node@26.6.6)))(svelte@5.58.0(@typescript-eslint/types@8.58.0))(typescript@6.0.3)(vite@8.3.8(@types/node@26.6.6))
 
-  '@sveltejs/kit@3.2.0(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.58.0(@typescript-eslint/types@8.58.0))(vite@8.3.8(@types/node@26.6.6)))(svelte@5.58.0(@typescript-eslint/types@8.58.0))(typescript@6.0.3)(vite@8.3.8(@types/node@26.6.6))':
+  '@sveltejs/kit@3.4.0(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.58.0(@typescript-eslint/types@8.58.0))(vite@8.3.8(@types/node@26.6.6)))(svelte@5.58.0(@typescript-eslint/types@8.58.0))(typescript@6.0.3)(vite@8.3.8(@types/node@26.6.6))':
     dependencies:
       '@jridgewell/trace-mapping': 0.3.31
       '@rolldown/pluginutils': 1.1.0
@@ -1276,7 +1276,7 @@ snapshots:
 
   devalue@5.9.4: {}
 
-  dompurify@3.4.17:
+  dompurify@3.4.18:
     optionalDependencies:
       '@types/trusted-types': 2.0.7
 
@@ -1334,9 +1334,9 @@ snapshots:
     dependencies:
       '@types/estree': 1.0.9
 
-  isomorphic-dompurify@4.7.0:
+  isomorphic-dompurify@4.8.0:
     dependencies:
-      dompurify: 3.4.17
+      dompurify: 3.4.18
       jsdom: 31.0.1
     transitivePeerDependencies:
       - '@napi-rs/canvas'
@@ -1497,11 +1497,11 @@ snapshots:
       exsolve: 1.0.8
       pathe: 2.0.3
 
-  playwright-core@1.65.0: {}
+  playwright-core@1.65.1: {}
 
-  playwright@1.65.0:
+  playwright@1.65.1:
     dependencies:
-      playwright-core: 1.65.0
+      playwright-core: 1.65.1
 
   postcss@8.5.32:
     dependencies:
